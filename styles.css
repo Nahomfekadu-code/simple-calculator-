@@ -1,0 +1,92 @@
+body{
+    background-color: #424242;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+#container{
+    position: fixed;
+    width: 200px;
+    padding:8px 8px 20px 8px;
+    margin: 20px auto;
+    background: #ababab;
+    border-radius: 14px;
+    border-top: 2px solid #ff8484;
+    border-right: 2px solid #ff8484;
+    border-bottom: 2px solid #800000;
+    border-left: 2px solid #800000;
+    box-shadow: 2px 2px 4px 5px lightblue;
+}
+#display{
+    display: block;
+    margin: 15px auto;
+    height: 42px;
+    width: 174px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+   box-shadow: 2px 2px 2px 1px white ;
+   font-size: 28px;
+   text-align: right;
+   color:khaki;
+   font-weight: 800;
+   background-color: #fff;
+   animation: port 10s infinite linear;
+}
+@keyframes port{
+    0%{
+       background-color: #fff;
+    }
+    100%{
+       background-color:black ;
+    }
+}
+.button{
+    display:inline-block;
+    margin:2px;
+    width:42px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 4px;
+
+}
+.mathButtons{
+    margin: 2px 2px 6px 2px ;
+    color: #fff;
+    background-color: #434343;
+    border-top: 2px double red ;
+    border-bottom:2px double lightblue;
+    border-left: 2px double red;
+    border-right: 2px double lightblue;
+    box-shadow:  2px 4px #030303;
+    
+}
+.digits{
+    color: #181818;
+  
+    text-shadow: 1px 1px 0 lightblue;
+    background-color: #ebebeb;
+    border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+
+}
+.mathButtons:hover,#clearButton:hover{
+
+    background-color: #ffba75;
+    box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
